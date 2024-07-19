@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    width: 100%;
+    height: 100vh;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+button{
+    width: 120px;
+    height: 50px;
+    color: white;
+    background-color: black;
+    border: none;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.parent{
+    width: 80%;
+    height: 50%;
+    border: 2px solid;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    visibility: hidden;
+}
+.box-1{
+    width: 19%;
+    height: 48%;
+    background-color: black;
+    margin-left: 39px;
+}
+.cross{
+    background-image: url(./img/cross.png);
+}
